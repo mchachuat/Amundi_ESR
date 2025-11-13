@@ -59,7 +59,7 @@ st.title("Tableau de bord")
 st.markdown("<br>", unsafe_allow_html=True)
 
 # === Chargement des données ===
-actions, indice = load_data("data/analyse données.xlsx")
+actions, indice = load_data("Amundi_ESR/data/analyse données.xlsx")
 
 # === Filtres ===
 with st.sidebar:
