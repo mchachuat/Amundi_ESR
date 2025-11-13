@@ -52,7 +52,7 @@ def place_logo_sidebar(path: str = "logo.jpeg", height_px: int = 110):
 place_logo_sidebar("logo.jpeg", height_px=110)
 
 # --- Données & filtres ---
-actions, indice = load_data("data/analyse données.xlsx")  # <- nom de fichier sans accents
+actions, indice = load_data("data/analyse données.xlsx")  # <- nom de fichier sans accents
 with st.sidebar:
     st.header("Filtres")
     sectors = sorted(actions["Sector (1)"].dropna().unique())
